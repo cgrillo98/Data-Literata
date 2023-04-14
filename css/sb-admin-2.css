@@ -2005,6 +2005,7 @@ textarea.form-control {
   position: relative;
   display: block;
   padding-left: 2.7rem;
+  padding-top: 1rem;
 }
 
 .form-check-input {
