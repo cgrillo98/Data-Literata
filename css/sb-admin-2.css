@@ -9518,7 +9518,7 @@ button.bg-dark:focus {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: left !important;
 }
 
 @media (min-width: 576px) {
@@ -10133,6 +10133,7 @@ a:focus {
 .rotate-n-15 {
   transform: rotate(-15deg);
 }
+
 
 .dropdown .dropdown-menu {
   font-size: 0.85rem;
