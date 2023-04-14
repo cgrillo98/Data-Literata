@@ -2004,8 +2004,8 @@ textarea.form-control {
 .form-check {
   position: relative;
   display: block;
-  padding-left: 2.7rem;
-  padding-top: 1rem;
+  padding-left: 2.7rem!important;
+  padding-top: 1rem!important;
 }
 
 .form-check-input {
@@ -2021,7 +2021,7 @@ textarea.form-control {
 
 .form-check-label {
   margin-bottom: 0;
-  color: #3a3b45;
+  color: #3a3b45 !important;
 }
 
 .form-check-inline {
