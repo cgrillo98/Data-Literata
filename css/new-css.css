@@ -5,6 +5,12 @@ a {
     background-color: transparent;
 }
 
+.about{
+ margin: 1rem;
+ font-size: 1rem;
+
+}
+
 .bg-gradient-primary {
     background-color:  #2d4d7a!important;
     background-image: none; 
@@ -88,15 +94,39 @@ h1{
     letter-spacing: 4px;
 }
 
+.iconos-new{
+    font-size: 28px; 
+    opacity: 1; 
+    -webkit-text-stroke-width: 0px; 
+    color:#af496a;
+
+}
+
+
 .input-group:not(.has-validation) > .form-control:not(:last-child), .input-group:not(.has-validation) > .custom-select:not(:last-child), .input-group:not(.has-validation) > .custom-file:not(:last-child) .custom-file-label::after {
     border: 1px solid #af496a!important;
     border-radius: 0px;
 }
 
 mark {
-    background-color: white;
+    background-color: #f9eff2;
 
   }
+
+  .rotate-n-15 {
+    transform: rotate(356deg);
+}
+
+.sidebar-dark .sidebar-brand {
+    color: #ebffdd;
+}
+
+
+.sidebar .sidebar-brand .sidebar-brand-text {
+    line-height: 1;
+    font-family: system-ui, sans-serif;
+    text-align: left;
+}
 
 .text-gray-800 {
     color: #2d4d7a !important;
@@ -109,6 +139,18 @@ mark {
     height: 2.5rem;
     width: 2.5rem;
     color: #af496a;
+}
+
+.topbar .dropdown-list .dropdown-header {
+    background-color: #2d4d7a ;
+    border: 1px solid #2d4d7a ;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+.topbar .dropdown .dropdown-menu {
+    border-radius: 0px;
 }
 
 

@@ -21,10 +21,14 @@
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.css" rel="stylesheet">
     <link href="css/new-css.css" rel="stylesheet">
+    <!-- <link href="css/white.css" rel="stylesheet">-->
 
     <!--Massonry-->
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
     
+    <!--Iconos-->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+
 </head>
 
 <body id="page-top">
@@ -38,9 +42,11 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <!--<i class="fas fa-laugh-wink"></i>-->
+                    <i class='bi bi-robot'></i>
+
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Contra Todo pronóstico</div>
             </a>
 
             <!-- Divider -->
@@ -49,8 +55,8 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Proyectos</span></a>
+                    <i class="bi bi-stars"></i>
+                    <span>Datos Literatos</span></a>
             </li>
 
             <!-- Divider -->
@@ -65,17 +71,30 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAutor"
                     aria-expanded="true" aria-controls="collapseAutor">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Autor</span>
+                    <i class="bi bi-snow"></i>
+                    <span>Autor(a)</span>
                 </a>
                 <div id="collapseAutor" class="collapse" aria-labelledby="headingAutor" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
+                        <h6 class="collapse-header">Filtrar por autor(a):</h6>
+
+                        <!-- <a class="collapse-item" href="buttons.html">Buttons</a>
+                        <a class="collapse-item" href="cards.html">Cards</a>-->
 
 
                         <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                          </div>
+                          <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
                               Default checkbox
@@ -93,17 +112,88 @@
                 </div>
             </li>
 
-            <!-- Nav Item - Tema Collapse Menu -->
+            <!-- Nav Item - Titulo Collapse Menu -->
             <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTitulo"
+                    aria-expanded="true" aria-controls="collapseTitulo">
+                    <i class="bi bi-snow"></i>
+                    <span>Título</span>
+                </a>
+                <div id="collapseTitulo" class="collapse" aria-labelledby="headingTitulo"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner">
+                        <h6 class="collapse-header">Filtrar por Título:</h6>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+                        <a class="collapse-item" href="utilities-color.html">Colors</a>
+                        <a class="collapse-item" href="utilities-border.html">Borders</a>
+                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                    </div>
+                </div>
+            </li>
+
+
+             <!-- Nav Item - Tema Collapse Menu -->
+             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTema"
                     aria-expanded="true" aria-controls="collapseTema">
-                    <i class="fas fa-fw fa-wrench"></i>
+                    <i class="bi bi-snow"></i>
                     <span>Tema</span>
                 </a>
                 <div id="collapseTema" class="collapse" aria-labelledby="headingTema"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
+                        <h6 class="collapse-header">Filtrar por Temas:</h6>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                            </label>
+                        </div>
+
+
                         <a class="collapse-item" href="utilities-color.html">Colors</a>
                         <a class="collapse-item" href="utilities-border.html">Borders</a>
                         <a class="collapse-item" href="utilities-animation.html">Animations</a>
@@ -116,17 +206,42 @@
              <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFormato"
                     aria-expanded="true" aria-controls="collapseFormato">
-                    <i class="fas fa-fw fa-wrench"></i>
+                    <i class="bi bi-snow"></i>
                     <span>Formato</span>
                 </a>
                 <div id="collapseFormato" class="collapse" aria-labelledby="headingFormato"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">CSV</a>
-                        <a class="collapse-item" href="utilities-border.html">XLS</a>
-                        <a class="collapse-item" href="utilities-animation.html">Jason</a>
-                        <a class="collapse-item" href="utilities-other.html">Geojason</a>
+                        <h6 class="collapse-header">Filtrar por Formato:</h6>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                CSV
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                XLS
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Jason
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Geojason
+                            </label>
+                        </div>
+
                     </div>
                 </div>
             </li>
@@ -214,16 +329,20 @@
                         <li class="nav-item dropdown no-arrow mx-1">
                             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa-solid fa-plus fa-fw"></i>
+                                <!--<i class="fa-solid fa-plus fa-fw"></i>-->
+                                <span id="boot-icon" class="bi bi-filter-circle iconos-new"></span>
 
                             </a>
                             <!-- Dropdown - Alerts -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="alertsDropdown">
                                 <h6 class="dropdown-header">
-                                    Alerts Center
+                                    SOBRE ESTE PROYECTO
                                 </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
+
+                                <div class="about"><h5 class="card-title">Special title treatment</h5><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum, lacus id aliquam dignissim, ex nisi consequat enim, vel ornare neque elit sit amet felis. Nullam a maximus metus. Nulla sollicitudin feugiat ligula nec dignissim. <a target="_blank" href="https://datatables.net">official DataTables documentation </a> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <h5 class="card-title">Special title treatment</h5><p>Ut condimentum, lacus id aliquam dignissim, ex nisi consequat enim, vel ornare neque elit sit amet felis. Ut condimentum, lacus id aliquam dignissim, ex nisi consequat enim, vel ornare neque elit sit amet felis.</p></div>
+
+                              <!-- <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-primary">
                                             <i class="fas fa-file-alt text-white"></i>
@@ -255,8 +374,8 @@
                                         <div class="small text-gray-500">December 2, 2019</div>
                                         Spending Alert: We've noticed unusually high spending for your account.
                                     </div>
-                                </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                </a>-->
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Más información</a>
                             </div>
                         </li>
                         
@@ -279,7 +398,7 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     
-                                <blockquote class="css-z2dt1m"><p class="css-sabsj4"><h1 class="h3 mb-0 text-gray-800">Proyectos</h1> </p></blockquote>   
+                                <blockquote class="css-z2dt1m"><p class="css-sabsj4"><h1 class="h3 mb-0 text-gray-800">Datos Literatos</h1> </p></blockquote>   
                     
                             </div> 
                     
@@ -298,7 +417,7 @@
 
                     
                     <!-- new cards 2-->
-
+                    
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
                           <h5 class="card-title">Special title treatment</h5>
@@ -306,7 +425,8 @@
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
-
+                    
+                    
                       <div class="card" style="width: 18rem;">
                         <div class="card-body">
                           <h5 class="card-title">Special title treatment</h5>
