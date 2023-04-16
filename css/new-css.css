@@ -218,10 +218,10 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 }
 
 
-/* fixed sidebar */
+/* fixed sidebar 
 .sidebar {
-   /*  width: 6.5rem;
-    min-height: 100vh;*/
+    width: 6.5rem;
+    min-height: 100vh;
     position: fixed;
     z-index: 100;
 }
@@ -229,8 +229,9 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 #wrapper #content-wrapper #content {
     margin-left: 13.5rem;
 }
+*/
 
-/* end fixed sidebar */
+
 
 
 
@@ -261,7 +262,6 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 }
 
 
-
 .sidebar .nav-item .tag-new {
     display: inline;
     width: 100%;
@@ -269,6 +269,11 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
     padding: 1rem;
     width: 14rem;
 }
+
+.sidebar .nav-item-new {
+    margin-left: 1rem;
+}
+
 
 .sidebar hr.sidebar-divider {
     margin-top: 0.5rem;
@@ -286,8 +291,8 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 */
 
 
-/* fixed sidebar */
-/* Extra small devices (phones, 600px and down) */
+/* fixed sidebar 
+/* Extra small devices (phones, 600px and down) 
 
 @media only screen and (max-width: 768px) 
 {
@@ -302,8 +307,8 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 {
 
     .sidebar {
-        /*  width: 6.5rem;
-         min-height: 100vh;*/
+         width: 6.5rem;
+         min-height: 100vh;
          position: relative;
          z-index: 100;
      }
@@ -314,7 +319,7 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 }
 
 
-
+*/
 
 
   /* end fixed sidebar */

@@ -1,0 +1,15 @@
+
+
+#wrapper #content-wrapper #content {
+
+background-color: #ededef;
+opacity: 1;
+background-image: radial-gradient(#b4b4b4 0.8px, #f6f4f1 0.8px);
+background-size: 16px 16px;
+
+}
+
+mark {
+    background-color: #EBFFDB;
+    color: #2d4d7a;
+}
