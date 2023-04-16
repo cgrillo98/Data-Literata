@@ -251,6 +251,19 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 
 
 
+.sidebar .nav-item .tag-new {
+    display: inline;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    width: 14rem;
+}
+
+.sidebar hr.sidebar-divider {
+    margin-top: 0.5rem;
+}
+
+
 
 /* Extra small devices (phones, 600px and down) }
 
