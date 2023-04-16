@@ -219,15 +219,37 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 
 
 
-/* Extra small devices (phones, 600px and down) 
+
+
+
+
+/* botón proyectos relacionados */
+.btn-primary2 {
+    color: #af496a;
+    background-color: white;
+    border-color: #af496a;
+    stroke-width: 1px;
+    font-weight: 500;
+    border-radius: 0px;
+    display: inline-block!important;
+}
+.d-sm-inline-block2 {
+    display: inline-block!important;
+}
+/* fin botón proyectos relacionados */
+
+
+
+/* Extra small devices (phones, 600px and down) }
+
 @media only screen and (max-width: 600px) {
     
-    .d-sm-inline-block {
+    .d-sm-inline-block2 {
         display: inline-block!important;
     }
-
-}
 */
+
+
 
 /* flecha del sidebar */
 .sidebar #sidebarToggle::after {
