@@ -17,6 +17,11 @@ a {
 
 }
 
+.breadcrumb {
+    background-color: transparent; 
+
+}
+
 .btn-primary {
     color:#af496a;
     background-color: white;
@@ -45,6 +50,8 @@ a {
 
     border: 1px solid #af496a!important;
     margin:2px;
+    border-radius: 0px;
+
 }
 
 .css-13irs1z {
@@ -110,6 +117,7 @@ h1{
 
 mark {
     background-color: #f9eff2;
+    color: #2d4d7a;
 
   }
 
@@ -126,6 +134,11 @@ mark {
     line-height: 1;
     font-family: system-ui, sans-serif;
     text-align: left;
+}
+
+
+.sidebar-dark .nav-item .nav-link i {
+    color: rgba(255,255,255,.65);
 }
 
 .text-gray-800 {
