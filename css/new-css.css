@@ -54,6 +54,7 @@ a {
 
 }
 
+
 .css-13irs1z {
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);
     padding: 0px;
@@ -99,6 +100,13 @@ footer.sticky-footer {
 h1{
     text-transform: uppercase;
     letter-spacing: 4px;
+    
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 5rem;
 }
 
 .iconos-new{
@@ -121,8 +129,19 @@ mark {
 
   }
 
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+
   .rotate-n-15 {
     transform: rotate(356deg);
+}
+
+.row {
+    margin-top: 2rem;
 }
 
 .sidebar-dark .sidebar-brand {
@@ -143,9 +162,13 @@ mark {
 
 .text-gray-800 {
     color: #2d4d7a !important;
-    font-size: 30px;
+     /* font-size: 30px; */
     font-family: system-ui, sans-serif;
     font-weight: 900;
+}
+
+.text-primary {
+    color: #2d4d7a!important;
 }
 
 .topbar #sidebarToggleTop {
