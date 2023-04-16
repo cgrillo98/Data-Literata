@@ -103,6 +103,13 @@ h1{
     
 }
 
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    
+}
+
 h4 {
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -208,5 +215,16 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
     background-color: #f4e2e8;
     width: 100%;
     overflow-x: hidden;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .d-sm-inline-block {
+        display: inline-block!important;
+    }
+
 }
 
