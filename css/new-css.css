@@ -218,8 +218,19 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 }
 
 
+/* fixed sidebar */
+.sidebar {
+   /*  width: 6.5rem;
+    min-height: 100vh;*/
+    position: fixed;
+    z-index: 100;
+}
 
+#wrapper #content-wrapper #content {
+    margin-left: 13.5rem;
+}
 
+/* end fixed sidebar */
 
 
 
@@ -265,7 +276,7 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
 
 
 
-/* Extra small devices (phones, 600px and down) }
+/* Extra small devices (phones, 600px and down) 
 
 @media only screen and (max-width: 600px) {
     
@@ -273,6 +284,40 @@ background-image: repeating-linear-gradient(45deg, #f4e2e8 0, #ffffff 1.20000000
         display: inline-block!important;
     }
 */
+
+
+/* fixed sidebar */
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 768px) 
+{
+ #wrapper #content-wrapper #content {
+     margin-left: 6.5rem;
+ }
+}
+
+
+
+@media only screen and (max-width: 376px) 
+{
+
+    .sidebar {
+        /*  width: 6.5rem;
+         min-height: 100vh;*/
+         position: relative;
+         z-index: 100;
+     }
+
+    #wrapper #content-wrapper #content {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+  /* end fixed sidebar */
 
 
 
