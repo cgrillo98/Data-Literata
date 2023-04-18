@@ -31,6 +31,16 @@ a {
     border-radius: 0px;
 }
 
+.card-text{
+
+    font-size:0.9rem;
+}
+
+.card-text b{
+
+    color:#2d4d7a;
+}
+
 .card-title {
     color: #2d4d7a!important;
     font-weight: 600;
