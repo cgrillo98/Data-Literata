@@ -26,3 +26,18 @@ background-image:  repeating-linear-gradient(0deg, #dedede, #dedede 1.2000000000
     transform-style: preserve-3d;
 }
 
+
+
+@include media-breakpoint-up(sm) {
+   
+   
+    .horizontal-text-wrap {
+      width:576px;
+    }
+
+    h1, h2, h2, h4, h5, h6 {
+        font-size: 9px;
+        color: red;
+
+    }
+ }
