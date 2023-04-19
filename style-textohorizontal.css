@@ -1,0 +1,18 @@
+body {
+ 
+}
+
+.horizontal-text-wrap {
+  margin: 0px;
+  font-size: 50px;
+  min-height: 100%;
+  overflow: hidden;
+  color: #2d4d7a !important;
+  font-family: system-ui, sans-serif;
+  font-weight: 900;
+}
+.horizontal-text-wrap .horizontal-text {
+
+  white-space: nowrap;
+}
+
