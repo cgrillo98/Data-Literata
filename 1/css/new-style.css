@@ -1,0 +1,70 @@
+.horizontal-text-wrap {
+    margin: 0px;
+    font-size: 150px;
+    min-height: 100%;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.7)!important;
+    font-family: system-ui, sans-serif;
+    font-weight: 900;
+    line-height: 1px;
+}
+
+.horizontal-text-wrap {
+    white-space: nowrap;
+    background-color: rgb(199, 132, 178);
+}
+
+a {
+    color: #fff634;
+    text-decoration: underline;
+}
+
+
+mark, .mark {
+    padding: 0.1875em;
+    background-color: rgb(100 166 120);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    background-color: wheat;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    position: fixed;
+    z-index: 100;
+    width:100%;
+}
+
+
+
+.container-fluid .logo {
+    background-color: red;
+    text-align:center!important;
+    align-items: center!important;
+}
+
+
+.horizontal-text-wrap {
+    margin-top: 56px!important; /* margen para que el navbar no tape la primera linea de texto*/ 
+    font-size: 150px;
+    min-height: 100%;
+    overflow: hidden;
+    color: rgba(13, 181, 170, 0.7);
+    font-family: system-ui, sans-serif;
+    font-weight: 900;
+    line-height: 1px;
+}
+
+#sidebar-wrapper {
+
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Stay on top */
+}

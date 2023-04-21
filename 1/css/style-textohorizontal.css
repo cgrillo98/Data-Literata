@@ -1,0 +1,17 @@
+
+.horizontal-text-wrap {
+  margin: 0px;
+  font-size: 150px;
+  min-height: 100%;
+  overflow: hidden;
+  color: rgba(13, 181, 170, 0.7);
+  font-family: system-ui, sans-serif;
+  font-weight: 900;
+  line-height:1px;
+}
+
+
+.horizontal-text-wrap .horizontal-text {
+  white-space: nowrap;
+}
+
