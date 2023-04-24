@@ -62,9 +62,17 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 #sidebar-wrapper {
-
     position: fixed; /* Stay in place */
     top: 0;
     left: 0;
     z-index: 1; /* Stay on top */
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    background-color: #903b69;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    transform: rotate(35deg);
 }
